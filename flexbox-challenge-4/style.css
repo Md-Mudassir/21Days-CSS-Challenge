@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.hero {
+  background: #f3eed9;
+  padding: 5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: clamp(1.5rem, calc(2vw + 1rem), 3rem);
+}
+
+.container {
+  width: 80%;
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.second .info {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  text-align: left;
+}
+
+.box1 {
+  background: #222c2a;
+}
+
+.box1,
+.box2 {
+  display: flex;
+  color: white;
+  padding: 4rem 0;
+}
+
+.box2 {
+  background: #824936;
+}
+
+.row,
+.row2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.row2 {
+  flex-direction: row-reverse;
+}
+
+.para {
+  align-self: flex-start;
+  width: 50%;
+}
