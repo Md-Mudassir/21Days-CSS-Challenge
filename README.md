@@ -5,3 +5,5 @@
 - Using percentages for widths
 - Avoiding to set heights
 - Using max-width
+- Flex-box
+- Responsive images
