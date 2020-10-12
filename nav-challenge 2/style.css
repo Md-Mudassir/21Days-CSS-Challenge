@@ -82,7 +82,7 @@ header {
 }
 
 .nav__item {
-  margin: 1rem;
+  margin: 10px;
 }
 
 .nav__link--button {
@@ -197,15 +197,13 @@ header {
     display: flex;
     height: auto;
     justify-content: space-between;
+    position: relative;
   }
 
   .nav--visible,
   .nav__list {
     flex-direction: row;
-  }
-
-  .nav__list {
-    margin-left: 70px;
+    margin: 0;
   }
 
   .row {
